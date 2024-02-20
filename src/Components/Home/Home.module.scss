@@ -1,0 +1,9 @@
+@import "../../index.scss";
+
+.line {
+    border: $borderColor solid $borderHeight ;
+}
+
+.span {
+    color: $secondFontColor;
+}
