@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Bablu521.github.io/Project-5",
+  "homepage": "https://Bablu521.github.io/",
   "name": "project-5",
   "private": true,
   "version": "0.0.0",
@@ -22,7 +22,7 @@
     "react-detect-offline": "^2.4.5",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-    "react-router-dom": "^6.22.0",
+    "react-router-dom": "^6.22.1",
     "sass": "^1.70.0"
   },
   "devDependencies": {
