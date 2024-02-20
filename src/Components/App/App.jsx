@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Navigate, RouterProvider, createBrowserRouter } from "react-router-dom";
+import { Navigate, RouterProvider, createBrowserRouter, createHashRouter } from "react-router-dom";
 import MasterLayout from "./../MasterLayout/MasterLayout";
 import Movies from "./../Movies/Movies";
 import Home from "./../Home/Home";
@@ -17,6 +17,8 @@ import Details from './../Details/Details';
 import { useContext } from "react";
 import { AuthContext } from './../../Context/AuthStore';
 import { Online, Offline } from "react-detect-offline";
+
+
 
 
 
@@ -43,7 +45,7 @@ export default function App() {
   //   }
   // }, [])
 
-  let routes = createBrowserRouter([
+  let routes = createHashRouter([
     {
       path: "/",
       element: <MasterLayout userData={userData} logout={logout} />,
