@@ -9,9 +9,9 @@ export default function About() {
         <meta charSet="utf-8" />
         <title>ABOUT</title>
       </Helmet>
-      <div className="mt-5 w-50 h-50 bg mx-auto rounded">
+      <div className="mt-5 w-75 h-50 bg mx-auto rounded">
         <h1 className="text-center p-4">About Component</h1>
-      </div>;
+      </div>
     </>
   )
 }

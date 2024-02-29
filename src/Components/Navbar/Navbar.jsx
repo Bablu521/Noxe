@@ -30,12 +30,12 @@ export default function Navbar({ userData, logout }) {
                   <Link className="nav-link" to="about">About</Link>
                 </li>
               </ul> : ""}
-              <form className="d-flex mx-auto w-25">
-                <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+              <form className=" d-flex mx-lg-auto  w-25 me-auto mb-lg-0 mb-3 ">
+                <input className="form-control me-2 " type="search" placeholder="Search" aria-label="Search" />
               </form>
 
-              <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                <div className="d-flex align-content-center align-items-center">
+              <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                <div className="d-flex align-content-center align-items-center ">
                   <i className="fab fa-facebook mx-2"></i>
                   <i className="fab fa-spotify mx-2"></i>
                   <i className="fab fa-instagram mx-2"></i>
